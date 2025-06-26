@@ -4,9 +4,9 @@
   "main": "flight-bot.js",
   "type": "module",
   "scripts": {
-    "start": "node flight-bot.js",
+    "start": "node screenshot-skyscanner.js",
     "start:kiwi": "node flight-discord-bot.js",
-    "dev": "node flight-bot.js",
+    "dev": "node screenshot-skyscanner.js",
     "dev:kiwi": "node flight-discord-bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
