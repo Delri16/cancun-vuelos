@@ -1,0 +1,33 @@
+{
+  "name": "vuelos-caribe",
+  "version": "1.0.0",
+  "main": "flight-bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node flight-bot.js",
+    "start:kiwi": "node flight-discord-bot.js",
+    "dev": "node flight-bot.js",
+    "dev:kiwi": "node flight-discord-bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "skyscanner",
+    "kiwi",
+    "vuelos",
+    "bot",
+    "discord",
+    "caribe"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Bot para monitorear vuelos baratos de Buenos Aires al Caribe usando Skyscanner y Kiwi.com APIs",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.3",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^24.10.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
